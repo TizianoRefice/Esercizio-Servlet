@@ -56,4 +56,6 @@ public class EsercizioServlet extends HttpServlet {
 		out.println("<br />Port: <b>"+port+"</b>");
 		out.println("</body>\n</html> "); 
 	}
+	
+	//commento aggiunto alla fine 20/04/2017 14:45
 }
