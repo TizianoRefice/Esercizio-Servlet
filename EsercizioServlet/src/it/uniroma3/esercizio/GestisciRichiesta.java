@@ -26,9 +26,9 @@ public class GestisciRichiesta extends HttpServlet {
 
 
 		// leggo (alcune) intestazioni http della richiesta
-		String address = (String)request.getRemoteAddr();
-		String host = (String)request.getRemoteHost();
-		String userAgent = request.getHeader("User-Agent");
+//		String address = (String)request.getRemoteAddr();
+//		String host = (String)request.getRemoteHost();
+//		String userAgent = request.getHeader("User-Agent");
 
 		request.setAttribute("nome", nome);
 		request.setAttribute("cognome", cognome);
@@ -39,5 +39,5 @@ public class GestisciRichiesta extends HttpServlet {
 		return;
 
 	}
-	//commento aggiunto alla fine 20/04/2017 14:45!!
+	
 }

@@ -42,6 +42,6 @@ public class GestisciRisposta extends HttpServlet {
 		out.println("<br />Port: <b>"+request.getRemotePort()+"</b>");
 		out.println("</body>\n</html> "); 
 	}
-
+		//commento del 26/04/2017 a fine lezione
 }
 
